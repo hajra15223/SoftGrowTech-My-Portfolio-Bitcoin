@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #77b7db;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background: #222;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+
+    nav ul li {
+      margin: 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #0d6efd;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #0d6efd;
+    }
+
+    .about p {
+      text-align: center;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+    }
+
+    .skill {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .project h3 {
+      margin-bottom: 10px;
+      color: #0d6efd;
+    }
+
+    #contact {
+      text-align: center;
+    }
+
+    #contact a {
+      color: #0d6efd;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm <strong>Hajra Bibi</strong>, a <strong>7th Semester</strong> student at
+      <strong>Women University Swabi</strong> and a passionate web developer who enjoys
+      creating responsive and user-friendly websites. I love learning new
+      technologies and building creative projects. Here is a quick overview of
+      my technical skills and the projects I have worked on.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Flutter</div>
+      <div class="skill">Dart Programming</div>
+      <div class="skill">Python</div>
+      <div class="skill">Java</div>
+      <div class="skill">GitHub</div>
+      <div class="skill">Database</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+      <div class="project">
+        <h3>Daily Quote App</h3>
+        <p>
+          A responsive Daily Quote App built using Dart and Flutter.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Chat Bot</h3>
+        <p>
+          A simple chatbot application that responds to user input with predefined answers.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>Weather App</h3>
+        <p>
+          A weather application that fetches live weather information using an API.
+        </p>
+      </div>
+
+      <div class="project">
+        <h3>To-Do List</h3>
+        <p>
+          A task management application with add, edit, and delete features.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+
+    <p>Email: <strong>hajes1957@gmail.com</strong></p>
+    <p>Phone: <strong>+92 3195771740</strong></p>
+
+    <br>
+
+    <p>
+      <a href="https://github.com/hajra15223" target="_blank" rel="noopener noreferrer">GitHub</a> |
+      <a href="https://www.linkedin.com/in/hajra-bibi-685330346" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+      <a href="https://www.facebook.com/share/1cVramkhL2/" target="_blank" rel="noopener noreferrer">Facebook</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Hajra Bibi. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
