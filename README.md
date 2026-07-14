@@ -1,3 +1,3 @@
-# SoftGrowTech-My-Portfolio-Bitcoin
+# SoftGrowTech-My-Portfolio
 A responsive personal portfolio website built using HTML and CSS. It showcases my profile, technical skills, projects, and contact information with a clean and user-friendly design. Developed as part of the SoftGrowTech task to demonstrate frontend web development, responsive layout, and basic portfolio design skills
 This project is a responsive personal portfolio website developed using HTML and CSS. It presents my profile, technical skills, projects, and contact information in a clean and organized layout. The website is designed with a user-friendly interface and responsive design to ensure a smooth experience across different devices. This project was completed as part of the SoftGrowTech frontend development task to demonstrate my web design and development skills.
